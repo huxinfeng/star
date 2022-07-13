@@ -9,5 +9,7 @@ export default defineConfig({
   mode: 'site',
   /** 解决html引用不到 js 和 css 的问题 */
   publicPath: './',
+  /** 路由改成 hash 路由 */
+  history: { type: 'hash' },
   // more config: https://d.umijs.org/config
 });
