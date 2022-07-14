@@ -8,7 +8,10 @@ const Loading = () => {
     <div className="loading">
       <div className="loading-bg">
         <div className="loading-content">
-          <Image src="http://f.gamecreator.com.cn/img/404/defplug.png" preview={false} />
+          <Image
+            src="https://material.gamecreator.com.cn/webForum/1693186a563a03149b3ff199f820c799/23hrAiBb4MDDSNJ8sPQ534EdQTYMTGfE/defplug.png"
+            preview={false}
+          />
           <h1>Loading...</h1>
         </div>
       </div>
