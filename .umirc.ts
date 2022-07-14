@@ -1,4 +1,4 @@
-import { defineConfig } from 'dumi';
+import { defineConfig, IConfig } from 'dumi';
 
 export default defineConfig({
   title: 'star系列插件教程',
@@ -65,4 +65,4 @@ export default defineConfig({
     ],
   },
   // more config: https://d.umijs.org/config
-});
+} as IConfig);
