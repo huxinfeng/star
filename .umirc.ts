@@ -64,5 +64,12 @@ export default defineConfig({
       { title: 'Changelog', path: 'https://github.com/huxinfeng/star/releases' },
     ],
   },
+  /** 启用 Google Analytics 和 百度统计 */
+  analytics: {
+    // Google Analytics 代码，配置后会启用
+    ga: 'G-4Q280WRGJ5',
+    // 百度统计代码，配置后会启用
+    baidu: '213782e7b5b17a80915621c208df337f',
+  },
   // more config: https://d.umijs.org/config
 } as IConfig);
