@@ -51,5 +51,18 @@ export default defineConfig({
       bar: 'gameCreator',
     },
   ],
+  /** 导航额外链接配置 */
+  navs: {
+    'zh-CN': [
+      null,
+      { title: 'GitHub', path: 'https://github.com/huxinfeng/star' },
+      { title: '更新日志', path: 'https://github.com/huxinfeng/star/releases' },
+    ],
+    'en-US': [
+      null,
+      { title: 'GitHub', path: 'https://github.com/huxinfeng/star' },
+      { title: 'Changelog', path: 'https://github.com/huxinfeng/star/releases' },
+    ],
+  },
   // more config: https://d.umijs.org/config
 });
