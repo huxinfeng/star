@@ -22,6 +22,10 @@ export default defineConfig({
   sitemap: {
     hostname: 'https://huxinfeng.github.io',
   },
+  /** 启用按需加载 */
+  dynamicImport: {
+    loading: '@/components/Loading',
+  },
   /** 国际化 */
   locales: [
     ['zh-CN', '中文'],
