@@ -16,6 +16,8 @@ export default defineConfig({
   webpack5: {},
   /** 开启mfsu */
   mfsu: {},
+  /** 启用 esbuild 压缩 */
+  esbuild: {},
   /** 启用 sitemap.xml 自动生成特性 */
   sitemap: {
     hostname: 'https://huxinfeng.github.io',
