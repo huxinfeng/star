@@ -12,8 +12,8 @@
     "test": "umi-test",
     "test:coverage": "umi-test --coverage",
     "prepublishOnly": "npm run build",
-    "analyze:dev":"ANALYZE=1 dumi dev",
-    "analyze:build":"ANALYZE=1 dumi build"
+    "analyze:dev": "ANALYZE=1 dumi dev",
+    "analyze:build": "ANALYZE=1 dumi build"
   },
   "files": [
     "dist"
