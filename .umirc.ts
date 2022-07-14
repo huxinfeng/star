@@ -38,5 +38,19 @@ export default defineConfig({
     logLevel: 'info',
     defaultSizes: 'parsed', // stat  // gzip
   },
+  /** 配置额外的 meta 标签 */
+  metas: [
+    {
+      name: 'keywords',
+      content: '星宿君, gameCreator, star',
+    },
+    {
+      name: 'description',
+      content: '📖 为GameCreator而生的文档工具',
+    },
+    {
+      bar: 'gameCreator',
+    },
+  ],
   // more config: https://d.umijs.org/config
 });
